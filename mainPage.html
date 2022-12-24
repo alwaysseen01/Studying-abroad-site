@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SVET </title>
+    <link rel="shortcut icon" href="icons/5.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="mainPage.css">
+    <script src="mainPage.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto+Mono&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div id="header-nav-box">
+            <img id="header-svet-logo" src="icons/svet-logo.png" alt="">
+            <div id="header-nav-elements-box">
+                <a href="#content-box-4"> <h2 id="h2-about-us"> О нас </h2> </a>
+                <a href="#content-box-5"> <h2 id="h2-programs"> Программы </h2> </a>
+                <a href="#footer-location-info"> <h2 id="h2-programs"> Контакты</h2> </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- CONTENT BOX 1 -->
+        <div id="content-box-1">
+            <h1 id="content-box-1-slogan"> Твой путь к SVETу </h1>
+            <h2 id="content-box-1-text"> Мы работаем каждый день, ради твоего SVETлого будущего! </h2>
+        </div>
+
+        <!-- CONTENT BOX 2 -->
+        <div id="content-box-2">
+            <h1> Наши услуги: </h1>
+            <img id="content-box-2-circle-img-1" src="icons/1.png" alt="">
+            <h3>
+                Бесплатные консультации по 
+                образованию в Чехии и Словакии
+            </h3>
+            <img id="content-box-2-circle-img-2" src="icons/2.png" alt="">
+            <h3>
+                Курсы словацкого и чешского языка в Алматы и онлайн
+            </h3>
+            <img id="content-box-2-circle-img-3" src="icons/3.png" alt="">
+            <h3>
+                Курсы профессиональной ориентации
+            </h3>
+            <img id="content-box-2-circle-img-4" src="icons/4.png" alt="">
+            <h3>
+                Создаём коммьюнити студентов
+            </h3>
+        </div>
+
+        <!-- CONTENT BOX 3 -->
+        <div id="content-box-3">
+            <h1> Часто задаваемые вопросы: </h1>
+            <div id="faq-1">
+                <div id="faq-1-upper">
+                    <h2> Я хочу начать учиться за границей. С чего мне начать?</h2>
+                    <div id="faq-1-button" src="#" alt="" onclick="openFAQLowerText(this.id)">
+                        <span id="faq-1-button-vertical"> </span>
+                        <span id="faq-1-button-horizontal"> </span>
+                    </div>
+                </div>
+                <div id="faq-1-lower">
+                    <h2 id="faq-1-lower-innerText">
+                        Первый шаг - бесплатная консультация
+                        Оставь заявку или позвони по номеру телефона +7 707 720 41 61 - Сабина
+                        <br> Мы подробно обо всём расскажем и ответим на все вопросы
+                    </h2>
+                </div>
+            </div>
+            <div id="faq-2">
+                <div id="faq-2-upper">
+                    <h2> A правда ли, что в Чехии и Словакии бесплатное образование? </h2>
+                    <div id="faq-2-button" src="#" alt="" onclick="openFAQLowerText(this.id)">
+                        <span id="faq-2-button-vertical"> </span>
+                        <span id="faq-2-button-horizontal"> </span>
+                    </div>
+                </div>
+                <div id="faq-2-lower">
+                    <h2 id="faq-2-lower-innerText">
+                        Да! Образование бесплатное для граждан и иностранных студентов на государственном языке
+                    </h2>
+                </div>
+            </div>
+            <div id="faq-3">
+                <div id="faq-3-upper">
+                    <h2> Когда нужно начать изучение языка? </h2>
+                    <div id="faq-3-button" src="#" alt="" onclick="openFAQLowerText(this.id)">
+                        <span id="faq-3-button-vertical"> </span>
+                        <span id="faq-3-button-horizontal"> </span>
+                    </div>
+                </div>
+                <div id="faq-3-lower">
+                    <h2 id="faq-3-lower-innerText">
+                        Чем раньше, тем лучше! Минимум за год до отъезда
+                    </h2>
+                </div>
+            </div>
+            <div id="faq-4">
+                <div id="faq-4-upper">
+                    <h2> Как записаться на бесплатную консультацию? </h2>
+                    <div id="faq-4-button" src="#" alt="" onclick="openFAQLowerText(this.id)">
+                        <span id="faq-4-button-vertical"> </span>
+                        <span id="faq-4-button-horizontal"> </span>
+                    </div>
+                </div>
+                <div id="faq-4-lower">
+                    <h2 id="faq-4-lower-innerText">
+                        Оставь заявку и жди звонка
+                    </h2>
+                </div>
+            </div>
+            <div id="faq-5">
+                <div id="faq-5-upper">
+                    <h2> Я из другого города/страны, есть ли консультация онлайн? </h2>
+                    <div id="faq-5-button" src="#" alt="" onclick="openFAQLowerText(this.id)">
+                        <span id="faq-5-button-vertical"> </span>
+                        <span id="faq-5-button-horizontal"> </span>
+                    </div>
+                </div>
+                <div id="faq-5-lower">
+                    <h2 id="faq-5-lower-innerText">
+                        Да! Пиши/звони по номеру телефона: +7 707 720 41 61- Сабина
+                    </h2>
+                </div>
+            </div>
+            <div id="faq-6">
+                <div id="faq-6-upper">
+                    <h2> Как вас найти? </h2>
+                    <div id="faq-6-button" src="#" alt="" onclick="openFAQLowerText(this.id)">
+                        <span id="faq-6-button-vertical"> </span>
+                        <span id="faq-6-button-horizontal"> </span>
+                    </div>
+                </div>
+                <div id="faq-6-lower">
+                    <h2 id="faq-6-lower-innerText">
+                        Наш офис находится в г. Алматы по адресу: Байтурсынова 280, Almaty Towers
+                    </h2>
+                </div>
+            </div>
+            <div id="faq-7">
+                <div id="faq-7-upper">
+                    <h2> Я хочу быть c вами! </h2>
+                    <div id="faq-7-button" src="#" alt="" onclick="openFAQLowerText(this.id)">
+                        <span id="faq-7-button-vertical"> </span>
+                        <span id="faq-7-button-horizontal"> </span>
+                    </div>
+                </div>
+                <div id="faq-7-lower">
+                    <h2 id="faq-7-lower-innerText">
+                        Отлично! Оставь заявку и жди звонка
+                    </h2>
+                </div>
+            </div>
+            <a href="#footer" id="contact-us-button"> Оставить заявку </a>
+        </div>
+        
+        <!-- CONTENT BOX 4 -->
+        <div id="content-box-4">
+            <h1> Почему обучение у нас? </h1>
+            <img id="header-svet-logo" src="icons/svet-logo.png" alt="">
+            <h2> Мы любим наше дело </h2>
+            <h3>
+                Мы - группа энтузиастов, обожающих обучение за границей. Наш SVETлый
+                путь длится уже более 13 лет и мы не собираемся останавливаться!
+            </h3>
+            <img id="header-svet-logo" src="icons/svet-logo.png" alt="">
+            <h2> Не бросаем своих </h2>
+            <h3> 
+                Мы никогда не бросаем своих. даже после отъезда на обучение мы всегда
+                остаёмся на связи со студентами и готовы подать руку помощи в любой
+                момент.
+            </h3>
+            <img id="header-svet-logo" src="icons/svet-logo.png" alt="">
+            <h2> Опыт </h2>
+            <h3>
+                Мы сами прошли этот путь и поможем тебе обойти все препятствия и
+                трудности на пути к своей мечте - образованию за границей. Мы знаем
+                ответы на все ваши вопросы.
+            </h3>
+            <img id="header-svet-logo" src="icons/svet-logo.png" alt="">
+            <h2> Мотивируем студентов </h2>
+            <h3>
+                Мы говорим своим делом, заряжаем всех SVETом и невероятным желанием
+                учиться. В процессе обучения мы вдохновляем этим своих студентов.
+            </h3>
+            <img id="header-svet-logo" src="icons/svet-logo.png" alt="">
+            <h2> Мы - семья </h2>
+            <h3>
+                Мы создаём сообщество студентов в Чехии и Словакии и поэтому всегда
+                в курсе актуальных новостей в области образования и жизни за границей.
+            </h3>
+            <img id="header-svet-logo" src="icons/svet-logo.png" alt="">
+            <h2> Только реальность </h2>
+            <h3>
+                Мы помогаем не только с оформлением документов, выбором программ,
+                кампуса и так далее, но и готовим студентов к реальной жизни за границей,
+                честно освещая все моменты.
+            </h3>
+        </div>
+        <!-- CONTENT BOX 5 -->
+        <div id="content-box-5">
+            <h1> Как всё происходит пошагово </h1>
+            <div id="content-box-5-box1">
+                <div id="content-box-5-circle"> 1 </div>
+                <h3> Бесплатная консультация </h3>
+                <h4>
+                    На бесплатной консультации мы помогаем вам с выбором
+                    страны подходящих университетов и программы foundation,
+                    обсуждаем все тонкости учебы за границей, отвечаем на все 
+                    ваши вопросы. В случае, если будущий студент ещё не выбирал
+                    специальность, то записываем на курс по профессиональной
+                    ориентации.
+                </h4>
+            </div>
+            <div id="content-box-5-box2">
+                <span id="content-box-5-circle"> 2 </span>
+                <h3> Сбор документов </h3>
+                <h4>
+                    Со студентом, выбравшим путь к SVETу, мы заключаем договор и выдаем полный список документов, необходимых для подачи на визу.
+                    Мы полностью сопровождаем вас на этом этапе, досконально проверяем всё и помогаем избежать ошибок при подаче на визу.
+                </h4>
+            </div>
+            <div id="content-box-5-box3">
+                <span id="content-box-5-circle"> 3 </span>
+                <h3> Подача на визу </h3>
+                <h4>
+                    На этом этапе мы записываем вас на собеседование в чешское посольство в г. Астана, готовим к интервью с консулом, заполняем визовую анкету, предоставляем необходимые документы.
+                </h4>
+            </div>
+            <div id="content-box-5-box4">
+                <span id="content-box-5-circle"> 4 </span>
+                <h3> Получение визы </h3>
+                <h4>
+                    После получения визы, мы переходим к сбору второго пакета документов - для нострификации (признания аттестата/диплома в Чехии).
+                    Именно на этом этапе рекомендуем приступить к самым приятным хлопотам - сбору чемодана! :)
+                </h4>
+            </div>
+            <div id="content-box-5-box5">
+                <span id="content-box-5-circle"> 5 </span>
+                <h3> Обучение на foundation по выбранной программе </h3>
+                <h4>
+                    Ежедневные интенсивные уроки языка и профильных предметов подготовят вас к успешной сдаче экзаменов в университет мечты.
+                    Кроме того, это классное время прогулок по волшебному городу, путешествий, новых знакомств и впечатлений. Незабываемый период!
+                </h4>
+            </div>
+            <div id="content-box-5-box6">
+                <span id="content-box-5-circle"> 6 </span>
+                <h3> Экзамен на уровень знания языка </h3>
+                <h4>
+                    Учебный год подошел к концу и впереди самое главное - сдача экаменов на уровень знания языка (В2, а для медицинского и творческого факультетов - С1). После успешной сдачи экзамена вы получите подтверждающий сертификат - необходимый для поступления в университет.
+                </h4>
+            </div>
+            <div id="content-box-5-box7">
+                <span id="content-box-5-circle"> 7 </span>
+                <h3> Поступление в университет </h3>
+                <h4>
+                    Кульминация всего первого года за границей - поступление в университет мечты. В зависимости от выбранного ВУЗа и направления камены будут проходить в несколько этапов: письменные тесты, устные собеседования, сдача портфолио (для творческих специальностей).
+                </h4>
+            </div>
+            <div id="content-box-5-box8">
+                <span id="content-box-5-circle"> 8 </span>
+                <h3> Невероятное время студенчества </h3>
+                <h4>
+                    Наверное, нет в мире ни одного человека, который бы не вспоминал с трепетом свои студенческие годы. Это невероятное время интересной учебы, проектов, студенческих приключений, дружбы и даже иногда любви. ;)
+                </h4>
+            </div>
+            <div id="content-box-5-box9">
+                <span id="content-box-5-circle"> 9 </span>
+                <h3> Получение заветного диплома! </h3>
+                <h4>
+                    Урааа!! Это финальный этап обучения и самый-самый долгожданный - получение диплома о высшем образовании! Мечта сбылась!
+                </h4>
+            </div>
+        </div>
+        <div id="content-box-6">
+            <h1> Занятия чешского языка </h1>
+            <h3 id="content-box-6-title"> Мы часто проводим общие интерактивные меропириятия для наших студентов </h3>
+            <img id="grid-img" src="icons/main.png" alt="">
+            <h3 id="grid-img-text">
+                Катерина - наша paní učitelka. Преподаёт чешский язык 8 лет. 
+                За это время разработала собственную методику, благодаря которой 
+                студенты начинают чувствовать язык и свободно на нём разговаривать, 
+                не нарушая грамматические правила.
+            </h3>
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="icons/slider-img1.jfif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="icons/slider-img2.jfif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="icons/slider-img3.jfif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="icons/slider-img4.jfif" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div id="footer-text">
+            <h1>
+                ЗАПИСЬ НА БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ
+            </h1>
+            <h3>
+                Заполни форму. Мы перезвоним и договоримся об очной или онлайн консультации.
+            </h3>
+        </div>
+        <div id="forms-box">
+            <input id="footerFormName" class="footerFormName" type="text" placeholder="Ваше имя">
+            <input id="footerFormPhone" class="footerFormPhone" type="text" placeholder="Ваш телефон">
+            <button id="sign-up-button" onclick="sendRequestToWhatsApp(event)"> Записаться </button>
+        </div>
+        <div id="footer-location-info">
+            <h1> Как нас найти </h1>
+            <h3>
+                Адрес: Алматы, Байтурсынова 280, Almaty Towers
+                Телефон: +7 707 720 41 61
+            </h3>
+            <h3>
+                Мы находимся в здании Almaty Towers: нужно зайти через левый западный
+                вход (к нему ведут лестницы), далее подняться на лифте на третий этаж 
+                (в лифте всего одна кнопка наверх и вниз) и пройти прямо до дверей с надписью 
+                Grantly.
+            </h3>
+            <p><a href="https://www.instagram.com/svet.4u/?igshid=YmMyMTA2M2Y%3D" id="footer-inst-icon"> </a></p>
+        </div>
+    </footer>
+</body>
+</html>
